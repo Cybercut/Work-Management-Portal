@@ -1,0 +1,13 @@
+CREATE USER 'Junaid'@'localhost' IDENTIFIED BY 'passaccess';
+
+CREATE DATABASE workportal;
+
+USE workportal;
+
+CREATE TABLE portalusers(name VARCHAR(50), username VARCHAR(30), password VARCHAR(30));
+
+INSERT INTO portalusers VALUES('root','admin','password');
+
+CREATE TABLE staff (staffname VARCHAR(100), int ID);
+
+CREATE TABLE report(name VARCHAR(50), work VARCHAR(50), punchin VARCHAR(30), workdesc VARCHAR(500), punchout VARCHAR(30), date DATE);

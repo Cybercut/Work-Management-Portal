@@ -1,0 +1,12 @@
+$conn = mysqli_connect("localhost", "tilttheb_workportal", "workprotal@#2023", "tilttheb_workportal");
+
+$conn = mysqli_connect("localhost", "Junaid", "passaccess", "workportal");
+
+Files:
+stafflog.php 
+loginprocess.php
+stafflogprocess.php
+userloginprocess.php
+excel.php
+deletestaffprocess.php
+addstaffprocess.php
